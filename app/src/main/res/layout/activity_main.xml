@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#0D0D0D">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐟 Nemo AI"
+        android:textSize="36sp"
+        android:textColor="#00E5FF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking status..."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/enableAccessibilityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Enable Nemo Accessibility"
+        android:backgroundTint="#00E5FF"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
