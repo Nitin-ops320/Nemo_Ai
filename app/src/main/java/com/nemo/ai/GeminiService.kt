@@ -18,7 +18,7 @@ class GeminiService {
         .build()
 
     // ── PASTE YOUR KEY HERE ──────────────────────────────────
-    private val apiKey = "AIzaSyAdIvxgLTuwycbZgAE66gV0fsuxA465CDk"
+    private val apiKey = ""
     // ─────────────────────────────────────────────────────────
 
     private val url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey"
