@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nemo AI</string>
+    <string name="accessibility_description">Nemo AI needs accessibility access to read and interact with your screen</string>
+</resources>
